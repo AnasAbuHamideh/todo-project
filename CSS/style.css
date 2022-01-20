@@ -1,0 +1,53 @@
+.grid-container{
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.img1 {
+  border-radius: 10%;
+  width: 50px;
+  height: 85px;
+  object-fit: cover;
+  float: left;
+}
+.nav{
+  display: block;
+  padding: 8px;
+  background-color: black;
+  float: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+}
+.label{
+  padding: 85px;
+}
+.main{
+  display: inline-flex;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.nav a{
+  color: white;
+}
+.nav label{
+  color: white;
+  float: left;
+}
