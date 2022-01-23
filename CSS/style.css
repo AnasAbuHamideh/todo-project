@@ -10,6 +10,12 @@
   height: 85px;
   object-fit: cover;
   float: left;
+  position: fixed;
+}
+.imgava{
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
 }
 .nav{
   display: block;
@@ -21,6 +27,9 @@
   text-decoration: none;
   list-style-type: none;
   overflow: hidden;
+  position: fixed;
+  left: 60px;
+  width: 100%;
 }
 .label{
   padding: 85px;
@@ -28,10 +37,14 @@
 .main{
   display: inline-flex;
 }
-table {
+#t1 {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin-left: 500px;
+}
+#t2{
+  margin-left: 500px;
 }
 
 td, th {
@@ -46,8 +59,96 @@ tr:nth-child(even) {
 
 .nav a{
   color: white;
+  text-decoration: none;
+  padding-left: 300px;
+  text-align: center;
 }
 .nav label{
   color: white;
   float: left;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.progress{
+  width: 200px;
+  height: 30px;
+   /* border-radius: 5px;  */
+  margin: 20px 10px;
+   /* border: 1px solid rgb(189, 113, 113);   */
+  overflow: hidden; 
+  position: relative;
+}
+#JS{
+  height: 100%;
+  display: block;
+  width: 0;
+  color: rgb(255, 251, 251);
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+  background-color: green;
+}
+#HTML{
+  height: 100%;
+  display: block;
+  width: 0;
+  color: rgb(255, 251, 251);
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+  background-color: red;
+}
+#dog{
+  height: 100%;
+  display: block;
+  width: 0;
+  color: rgb(255, 251, 251);
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+  background-color: red;
+}
+#match{
+  height: 100%;
+  display: block;
+  width: 0;
+  color: rgb(255, 251, 251);
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+  background-color: red;
+}
+h1{
+  padding: 15px;
+  margin-left: 500px;
+  margin-top: 60px;
+}
+#txt{
+  display: inline;
+  width: 350px;
+  height: 300px;
+  margin-left:100px;
+  
+}
+h2{
+  padding: 15px;
+  margin-left: 500px;
+}
+#btn{
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
