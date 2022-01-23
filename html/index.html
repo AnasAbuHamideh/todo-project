@@ -16,41 +16,54 @@
             <nav class="nav">
                 <label>CLICK</label>
                 <a href="index.html">Home</a>
-                <a href="about.html">about</a>
+                <a href="about.html">About</a>
             </nav>
-            <Label>TODO List</Label>
+            <h1>TODO List</h1>
         </div>
     </header>
     <main>
         <div class="main">
 
-            <table>
+            <table id="t1">
                 <tr>
                     <th>List</th>
                     <th>Status</th>
                 </tr>
                 <tr>
                     <td>Learn JS <input type="checkbox"></td>
-                    <td></td>
+                    <td>
+                        <div class="progress">
+                            <span id="JS" data-progress="60"></span>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>Create HTML page <input type="checkbox"></td>
-                    <td></td>
+                    <td><div class="progress">
+                        <span id="HTML" data-progress="60"></span>
+                    </div></td>
                 </tr>
                 <tr>
                     <td>Walk the dog <input type="checkbox"></td>
-                    <td></td>
+                    <td><div class="progress">
+                        <span id="dog" data-progress="60"></span>
+                    </div></td>
                 </tr>
                 <tr>
                     <td>Watch The Match <input type="checkbox"></td>
-                    <td></td>
+                    <td><div class="progress">
+                        <span id="match" data-progress="60"></span>
+                    </div></td>
                 </tr>
             </table>
 
         </div>
 
     </main>
-    <footer>@2022 All Rigths Reserved</footer>
+    <footer>
+        <p>@2022 All Rigths Reserved</p>
+    </footer>
+    <script src="../JS/app.js"></script>
 </body>
 
 </html>
