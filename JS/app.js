@@ -13,7 +13,7 @@ if (age <= 0)
 
 var skip = confirm("Skip Welcome:");
 if (skip != true)
-    alert("welcome to Click");
+    alert(`welcome Mr/Mrs ${name} to Click`);
 
 
 
